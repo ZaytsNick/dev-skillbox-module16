@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     string buffer;
-    cout<<"Enter expression: ";
+    cout << "Enter expression: ";
     cin >> buffer;
     double a, b;
     char operation;
@@ -20,13 +20,13 @@ int main()
         cout << a + b;
         break;
     case '-':
-        cout << a + b;
+        cout << a - b;
         break;
     case '*':
-        cout << a + b;
+        cout << a * b;
         break;
     case '/':
-        cout << a + b;
+        cout << a / b;
         break;
     }
 }
