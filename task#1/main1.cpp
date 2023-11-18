@@ -14,4 +14,5 @@ int main()
         sprintf(speed_str, "%.1f", speed);
         cout << "\nSpeed: " << speed_str;
     } while (delta + 0.01 > 0);
+    
 }
